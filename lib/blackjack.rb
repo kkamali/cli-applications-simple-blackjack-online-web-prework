@@ -56,5 +56,6 @@ def runner
     total = initial_round
     hit?(total)
   end
+  end_game(total)
 end
     
