@@ -34,10 +34,6 @@ def hit?(card_total)
   puts input
   if input == 'h'
     return card_total += deal_card
-  elsif input != "h" && input != 's'
-    puts "HELLO"
-    invalid_command
-    prompt_user
   end
   card_total
 end
